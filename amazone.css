@@ -239,3 +239,102 @@ ul a{
     text-align: center;
     padding-top: 5px;
 }
+
+    /* Mobile and Tablet Styles */
+@media(max-width: 768px){
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .search-select {
+        width: 20%;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .hero-section {
+        height: 300px;
+        background-size: cover;
+    }
+
+    .hero-message {
+        font-size: 0.75rem;
+        width: 95%;
+    }
+
+    .panel {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    ul a {
+        font-size: 0.75rem;
+    }
+
+    .pages, .copyright {
+        font-size: 0.65rem;
+    }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .nav-logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    .hero-message {
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+
+    .shop-section {
+        gap: 10px;
+    }
+
+    .box {
+        height: auto;
+        padding: 10px;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    .foot-panel1, .foot-panel3 {
+        font-size: 0.7rem;
+    }
+}
