@@ -241,15 +241,22 @@ ul a{
 }
 
     /* Mobile and Tablet Styles */
-@media(max-width: 768px){
+@media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
         padding: 10px;
     }
-
     .nav-logo {
         margin-bottom: 10px;
+    }
+    .panel-ops p{
+        flex-direction: row;
+        display: inline;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    
     }
 
     .nav-search {
